@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2E7705715BF8EA8006ACCDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E7705615BF8EA8006ACCDD /* Cocoa.framework */; };
+		B2E7706115BF8EA8006ACCDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2E7705F15BF8EA8006ACCDD /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2E7705315BF8EA8006ACCDD /* GlobalNoWindowIcon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalNoWindowIcon.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E7705615BF8EA8006ACCDD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B2E7705915BF8EA8006ACCDD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B2E7705A15BF8EA8006ACCDD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B2E7705B15BF8EA8006ACCDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2E7705E15BF8EA8006ACCDD /* GlobalNoWindowIcon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlobalNoWindowIcon-Info.plist"; sourceTree = "<group>"; };
+		B2E7706015BF8EA8006ACCDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2E7706215BF8EA8006ACCDD /* GlobalNoWindowIcon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlobalNoWindowIcon-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2E7705015BF8EA8006ACCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E7705715BF8EA8006ACCDD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2E7704815BF8EA8006ACCDD = {
+			isa = PBXGroup;
+			children = (
+				B2E7705C15BF8EA8006ACCDD /* GlobalNoWindowIcon */,
+				B2E7705515BF8EA8006ACCDD /* Frameworks */,
+				B2E7705415BF8EA8006ACCDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2E7705415BF8EA8006ACCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7705315BF8EA8006ACCDD /* GlobalNoWindowIcon.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2E7705515BF8EA8006ACCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7705615BF8EA8006ACCDD /* Cocoa.framework */,
+				B2E7705815BF8EA8006ACCDD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2E7705815BF8EA8006ACCDD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7705915BF8EA8006ACCDD /* AppKit.framework */,
+				B2E7705A15BF8EA8006ACCDD /* CoreData.framework */,
+				B2E7705B15BF8EA8006ACCDD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B2E7705C15BF8EA8006ACCDD /* GlobalNoWindowIcon */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7705D15BF8EA8006ACCDD /* Supporting Files */,
+			);
+			path = GlobalNoWindowIcon;
+			sourceTree = "<group>";
+		};
+		B2E7705D15BF8EA8006ACCDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7705E15BF8EA8006ACCDD /* GlobalNoWindowIcon-Info.plist */,
+				B2E7705F15BF8EA8006ACCDD /* InfoPlist.strings */,
+				B2E7706215BF8EA8006ACCDD /* GlobalNoWindowIcon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2E7705215BF8EA8006ACCDD /* GlobalNoWindowIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2E7706515BF8EA8006ACCDD /* Build configuration list for PBXNativeTarget "GlobalNoWindowIcon" */;
+			buildPhases = (
+				B2E7704F15BF8EA8006ACCDD /* Sources */,
+				B2E7705015BF8EA8006ACCDD /* Frameworks */,
+				B2E7705115BF8EA8006ACCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobalNoWindowIcon;
+			productName = GlobalNoWindowIcon;
+			productReference = B2E7705315BF8EA8006ACCDD /* GlobalNoWindowIcon.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2E7704A15BF8EA8006ACCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = inket;
+			};
+			buildConfigurationList = B2E7704D15BF8EA8006ACCDD /* Build configuration list for PBXProject "GlobalNoWindowIcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2E7704815BF8EA8006ACCDD;
+			productRefGroup = B2E7705415BF8EA8006ACCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2E7705215BF8EA8006ACCDD /* GlobalNoWindowIcon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2E7705115BF8EA8006ACCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E7706115BF8EA8006ACCDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2E7704F15BF8EA8006ACCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2E7705F15BF8EA8006ACCDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2E7706015BF8EA8006ACCDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2E7706315BF8EA8006ACCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2E7706415BF8EA8006ACCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2E7706615BF8EA8006ACCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlobalNoWindowIcon/GlobalNoWindowIcon-Prefix.pch";
+				INFOPLIST_FILE = "GlobalNoWindowIcon/GlobalNoWindowIcon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B2E7706715BF8EA8006ACCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlobalNoWindowIcon/GlobalNoWindowIcon-Prefix.pch";
+				INFOPLIST_FILE = "GlobalNoWindowIcon/GlobalNoWindowIcon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2E7704D15BF8EA8006ACCDD /* Build configuration list for PBXProject "GlobalNoWindowIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E7706315BF8EA8006ACCDD /* Debug */,
+				B2E7706415BF8EA8006ACCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2E7706515BF8EA8006ACCDD /* Build configuration list for PBXNativeTarget "GlobalNoWindowIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E7706615BF8EA8006ACCDD /* Debug */,
+				B2E7706715BF8EA8006ACCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2E7704A15BF8EA8006ACCDD /* Project object */;
+}
