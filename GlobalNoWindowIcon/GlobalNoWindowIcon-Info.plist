@@ -23,7 +23,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 inket. All rights reserved.</string>
+	<string>Copyright (c) 2012 inket. Licensed under GNU GPL v3.0. See LICENSE for details.</string>
 	<key>NSPrincipalClass</key>
 	<string>GlobalNoWindowIcon</string>
 	<key>SIMBLTargetApplications</key>
